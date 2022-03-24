@@ -49,9 +49,9 @@ router.get('/reset', (req, res) => {
     res.render('resetpassword')
 })
 
-router.post('/reset', (req, res) => {
-    res.render('resetpassword')
-})
+// router.post('/reset', (req, res) => {
+//     res.render('resetpassword')
+// })
 
 router.get('*', (req, res) => {
     res.render('404')
